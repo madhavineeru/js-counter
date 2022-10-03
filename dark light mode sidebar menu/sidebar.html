@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dark/light mode sidebar menu</title>
+    <link rel="stylesheet" href="sidebar.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <button class = "toggle-btn" id="toggleBtn">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+        
+                 <nav>
+  
+      <div class="sidebar-container sidebar " id="sideBar">
+        
+        <div class="close-btn">
+          <h1 class="title">SideBar Menu</h1>
+          <button class="close-menu" id ="close"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+        
+        <ul  id="menuBar">
+           <li class="nav-item"><a href="#"><i class="fa-solid fa-house"></i>Home</a></li>
+           <li class="nav-item"><a href="#"><i class="fa-regular fa-clock"></i>Recent</a></li>
+           <li class="nav-item"><a href="#"><i class="fa-solid fa-bell"></i>Notifications</a></li>
+           <li class="nav-item"><a href="#"><i class="fa-solid fa-cloud-arrow-up"></i>Backups</a></li>
+          <li class="nav-item"><a href="#"><i class="fa-solid fa-gear"></i>Settings</a></li>
+        </ul>
+         <button class="toggleIcon">Dark Mode</button>
+      
+        </div>
+      </div>
+      
+      </nav>  
+      
+    <script src="sidebar.js"></script>
+</body>
+</html>
